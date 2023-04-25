@@ -1,0 +1,35 @@
+p {
+  height: 110vh;
+}
+.red {
+  background: red;
+}
+.active {
+  color: red;
+}
+.gold {
+  background: gold;
+}
+ul {
+  position: fixed;
+  font-weight: 700;
+  color: white;
+  width: 100%;
+  background: black;
+  padding: 30px;
+}
+
+li:hover {
+  transition: all, 1s;
+  color: orange;
+}
+
+html, body {
+
+  scroll-behavior: smooth;
+  overscroll-behavior-y: none;
+  scroll-snap-type: y mandatory;
+  scroll-snap-stop: always;
+  scroll-padding-top: 0px; /* adjust as needed */
+}
+
