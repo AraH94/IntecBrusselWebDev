@@ -54,7 +54,7 @@ function App() {
       <ul>
         {filteredImages.map((image, index) => (
           <li key={index}>
-            <img src={image.src} alt="" className="pics" />
+            <img src={image.src} alt="" className="pics"/>
           </li>
         ))}
       </ul>
